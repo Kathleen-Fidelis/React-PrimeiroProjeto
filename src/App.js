@@ -5,6 +5,7 @@ import Estilo from './components/estilos/Estilo'
 import MinMax from './components/MinMax'
 import Titulo from './components/Titulo'
 import Botao from './components/Botao'
+import Contador from './components/Contador'
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <MinMax min={4} max={15}></MinMax> {/* Propriedade numérica */}
         <Titulo principal="Olá" secundario="tudo bem"></Titulo>
         <Botao></Botao>
+        <Contador inicial={100} passo={10} limite={300}></Contador>
+        <Contador inicial={0} passo={5} limite={1000}></Contador>
     </div>
   );
 }
