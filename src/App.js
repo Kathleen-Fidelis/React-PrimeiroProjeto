@@ -10,7 +10,15 @@ import './App.css';
 //import Produto from './components/propriedades/produto/Produto'
 //import Carro from './components/propriedades/carro/Carro'
 //import Pai from './components/direta/Pai'
-import Pai from './components/indireta/Pai'
+// import Pai from './components/indireta/Pai'
+// import Familia from './components/children/Familia'
+// import Membro from './components/children/Membro'
+//import ParImpar from './components/condicional/ParImpar';
+//import If from './components/condicional/if';
+//import UsuarioLogado from './components/condicional/UsuarioLogado'
+//import ListaProduto from './components/lista/ListaProduto';
+//import DigiteSeuNome from './components/DigiteSeuNome'
+import CadastroNome from './components/classe/CadastroNome'
 
 function App() {
   return (
@@ -48,7 +56,38 @@ function App() {
         {/* <Pai></Pai> */}
 
         {/* Comunicação indireta */}
-        <Pai></Pai>
+        {/* <Pai></Pai> */}
+
+        {/* Children */}
+        {/* <Familia>
+          <Membro nome="Kathleen" sobrenome="Fidelis"></Membro>
+          <Membro nome="Keith" sobrenome="Fidelis"></Membro>
+        </Familia>
+        <Familia>
+          <Membro nome="Karoline" sobrenome="Fidelis"></Membro>
+          <Membro nome="Stephanie" sobrenome="Fidelis"></Membro>
+        </Familia> */}
+
+        {/* Renderização condicional */}
+        {/* <ParImpar num = {2}></ParImpar>
+        <ParImpar num = {3}></ParImpar>
+        <ParImpar></ParImpar> */}
+
+        {/* Renderização condicional */}
+        {/* <UsuarioLogado usuario={{nome: 'kathleen', email: 'kathleen@gmail.com'}}></UsuarioLogado> 
+        <UsuarioLogado usuario={{nome: 'Ana'}}></UsuarioLogado> 
+        <UsuarioLogado usuario={{email: 'kathleen@gmail.com'}}></UsuarioLogado> 
+        <UsuarioLogado usuario={null}></UsuarioLogado> 
+        <UsuarioLogado usuario={{}}></UsuarioLogado>  */}
+
+        {/* Renderização de lista */}
+        {/* <ListaProduto></ListaProduto> */}
+
+        {/* Renderização de estado controlado */}
+        {/* <DigiteSeuNome></DigiteSeuNome> */}
+
+        {/* Componente baseado em classe */}
+        <CadastroNome name="teste"></CadastroNome>
     </div>
   );
 }
